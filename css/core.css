@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 100;
+}
+
+.name {
+  font-family: 'Amiri', serif;
+}
+
+p, ul {
+  font-size: 1.5em;
+  color: #444;
+}
+
+h2 {
+  margin: 0 !important;
+  padding: 1vw 7vw 1vw 7vw;
+}
+
+p, h3 {
+  padding: 0.2vw 7vw 0.2vw 7.5vw;
+  text-align: justify;
+}
+
+ul {
+  padding: 0 7vw 0 9vw;
+}
+
+li {
+  padding: 0.2vw 0;
+}
+
+a#trustee {
+  text-align: center;
+}
+
+a#trustee > img {
+  height: 80px;
+}
+
+span.name {
+  line-height: 1.25em;
+  float: left;
+  text-align: left;
+  padding: 3px 0.6em 0 0.4em;
+  font-size: 1.85em;
+}
+
+h1.name {
+  font-size: 4vw;
+}
+
+h2#motto {
+  font-size: 2.5vw;
+}
+
+header {
+    height: 50vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: url("../img/guidance.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+a, a:visited, a:active, a:hover, a:focus {
+  text-decoration: none !important;
+	color: #444 !important;
+}
+
+.rotate::before {
+  font-size: 2.4vw;
+  line-height: 3.7vw;
+}
+
+.rotate{
+    height: 4vw;
+    width: 4vw;
+    -moz-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.rotate.motion {
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+
+div#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  color: #444;
+  line-height: 5em;
+  border-bottom: 1px solid grey;
+}
+
+div#menu a {
+  padding-right: 2.2em;
+  font-size: large;
+  color: black;
+  font-weight: 400;
+}
+
+div#menu > img {
+  float: left;
+  height: 4em;
+  padding-left: 20px;
+  margin-top: 0.5em;
+}
+
+div#splash {
+  margin-top: 5em;
+  height: 90vh;
+  color: white;
+  line-height: normal;
+  text-align: center;
+}
+
+div#splash > a {
+  color: white !important;
+}
+
+div#splash h1, div#splash h2  {
+  font-weight: 100;
+}
+
+div#splash > img {
+  height: 8vw;
+  margin-top: 18vh;
+}
+
+div#content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5ff;
+}
