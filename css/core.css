@@ -63,6 +63,11 @@ div#chevron {
   padding-top: 6vh;
 }
 
+img#guidance-friendship {
+  float: left;
+  padding: 10px 20px 5px 0;
+}
+
 header {
     height: 50vw;
     width: 100%;
