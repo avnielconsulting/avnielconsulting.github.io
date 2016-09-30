@@ -67,9 +67,9 @@ header {
     background-size: cover;
 }
 
-.client {
+img.client {
   height: 4vw;
-  padding: 0 1vw;
+  padding: 0 2vw;
 }
 
 a, a:visited, a:active, a:hover, a:focus {
