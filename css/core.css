@@ -79,6 +79,12 @@ img.client {
   border: 1px solid #eee;
 }
 
+img.client-x {
+  height: 5vw;
+  margin: 0 4vw;
+  border: 1px solid #eee;
+}
+
 a, a:visited, a:active, a:hover, a:focus {
   text-decoration: none !important;
 	color: #445 !important;
