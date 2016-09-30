@@ -69,6 +69,10 @@ img#guidance-friendship {
   border: 1px solid #222;
 }
 
+hr {
+  color: #444;
+}
+
 header {
     height: 50vw;
     width: 100%;
