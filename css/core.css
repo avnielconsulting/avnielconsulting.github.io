@@ -32,11 +32,11 @@ li {
   padding: 0.2vw 0;
 }
 
-a#trustee {
+div#trustee {
   text-align: center;
 }
 
-a#trustee > img {
+div#trustee img {
   height: 80px;
 }
 
