@@ -142,7 +142,7 @@ div#splash h1, div#splash h2  {
   font-weight: 100;
 }
 
-div#splash > img {
+div#splash > img.logo {
   height: 8vw;
   margin-top: 18vh;
 }
