@@ -76,6 +76,7 @@ header {
 img.client {
   height: 4vw;
   padding: 0 4vw;
+  border: 1px solid #333;
 }
 
 a, a:visited, a:active, a:hover, a:focus {
