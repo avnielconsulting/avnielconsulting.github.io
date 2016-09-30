@@ -69,6 +69,7 @@ header {
 
 .client {
   height: 4vw;
+  padding: 0 1vw;
 }
 
 a, a:visited, a:active, a:hover, a:focus {
