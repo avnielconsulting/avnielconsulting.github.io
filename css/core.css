@@ -83,6 +83,10 @@ header {
     background-size: cover;
 }
 
+#menu img:hover, #menu span:hover {
+  cursor: pointer;
+}
+
 footer {
   color: #ddd;
   background-color: #333;
