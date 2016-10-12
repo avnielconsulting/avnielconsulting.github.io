@@ -18,4 +18,8 @@ $(document).ready(function() {
   }
 });
 
+$('#menu img, #menu span').click(function() {
+  window.open($("index.html").attr('href'),'_blank');
+});
+
 var app = angular.module('AvnielApp', []);
