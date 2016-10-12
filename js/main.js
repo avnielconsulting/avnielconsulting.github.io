@@ -13,7 +13,7 @@ $(document).ready(function() {
 
   var url = $.attr(this, 'href');
 
-  if(url && url.indexOf('#') >= 0 && $(url).offset() > 0) {
+  if(url && url.indexOf('#') >= 0 && typeof $(url).offset() != 'undefined') {
     event.preventDefault();
 
     $('html, body').animate({
