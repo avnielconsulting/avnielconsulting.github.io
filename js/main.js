@@ -19,7 +19,7 @@ $(document).ready(function() {
 });
 
 $('#menu img, #menu span').click(function() {
-  window.open("index.html",'_blank');
+  window.open("/index.html");
 });
 
 var app = angular.module('AvnielApp', []);
