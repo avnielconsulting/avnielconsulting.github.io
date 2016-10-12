@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
   $('#menu img, #menu span').click(function() {
-    window.open("/index.html");
+    window.location.href = "/index.html";
   });
 
   $(".rotate").hover(function(){
