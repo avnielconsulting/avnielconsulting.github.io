@@ -9,7 +9,7 @@ $(document).ready(function() {
 
   var url = $.attr(this, 'href');
 
-  if(url && url.indexOf('#') >= 0) {
+  if(url && url.indexOf('#') >= 0 && $(url).offset() > 0) {
     event.preventDefault();
 
     $('html, body').animate({
