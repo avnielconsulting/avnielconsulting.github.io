@@ -84,13 +84,14 @@ header {
 }
 
 footer {
-  color: white !important;
+  color: white;
   background-color: #333;
 }
 
 footer a {
   text-decoration: none;
   font-weight: normal;
+  color: white !important;
 }
 
 img.client {
