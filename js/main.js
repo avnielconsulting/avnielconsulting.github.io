@@ -1,6 +1,10 @@
 
 $(document).ready(function() {
 
+  $('#menu img, #menu span').click(function() {
+    window.open("/index.html");
+  });
+
   $(".rotate").hover(function(){
     $(this).toggleClass("motion");
   });
@@ -16,10 +20,6 @@ $(document).ready(function() {
       scrollTop: $(url).offset().top - 75
     }, 500);
   }
-});
-
-$('#menu img, #menu span').click(function() {
-  window.open("/index.html");
 });
 
 var app = angular.module('AvnielApp', []);
